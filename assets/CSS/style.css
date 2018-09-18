@@ -1,0 +1,95 @@
+html {
+    background-image: url(../Images/Game_background.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    background-color: aliceblue;
+    font-size: 46px;
+    font-family: fantasy;
+    width: 40%;
+    margin: 1% auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.directions {
+    background-color: aliceblue;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+    
+}
+
+.text-directions {
+    font-size: 18px;
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+.random-number {
+    display: inline-grid;
+    background-color: aliceblue;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 1% 0 0 30%;
+    
+}
+
+#total-score {
+    font-size: 50px;
+}
+
+#chosen-number {
+    font-size: 50px;
+}
+
+#win-counter {
+    font-size: 18px;
+    color: blue;
+}
+
+#lose-counter {
+    font-size: 18px;
+    color: red;
+
+}
+.win-lose {
+    display: inline-grid;
+    background-color: aliceblue;
+    text-align: center;
+    height: 150px;
+    width: 307px;
+    margin-top: 1% auto;
+    
+}
+
+.score {
+    display: inline-grid;
+    background-color: aliceblue;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin: 1% auto;
+} 
+
+#crystals {
+    display:inline-flex;
+    margin:1% 0 0 30%;
+}
+
+.crystal-image {
+    height: 150px;
+    width: 151px;
+    margin-right: 3px;
+}

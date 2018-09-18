@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+
+    <!-- link reset.css -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/reset.css">
+
+    <!-- link style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Crystal Collector</h1>
+        </header>
+
+        <div class="directions">
+            <p>How to play...</p>
+            <br>
+            <p class="text-directions">A random number is created at the start of each game.</p>
+            <p class="text-directions">The four crystals below, add a specifc number to the your total score when
+                clicked.</p>
+            <p class="text-directions">To win, simply match your total score with the random number. You will lose if
+                your total score exceeds the random number.</p>
+            <p class="text-directions">Becareful! The value of each crystal is hidden from you until you click on it.</p>
+            <p class="text-directions">At the beginning of each game the crystals value will change.</p>
+
+        </div>
+
+        <div class="random-number">Random Number:
+            <p id="chosen-number"></p>
+        </div>
+
+        <div class="win-lose">
+            <p id="win-counter">Wins:</p>
+            <br>
+            <p id="lose-counter">Losses:</p>
+        </div>
+
+        <div class="score">Total Score:
+            <p id="total-score"></p>
+        </div>
+
+        <div id="crystals">
+            <!-- <img class="crystal-image" src="assets/Images/Blue_crystal.jpg"></div> -->
+            <!-- <img class="crystal-image" src="assets/Images/Clear_crystal.jpg"> -->
+            <!-- <img class="crystal-image" src="assets/Images/Purple_crysral.jpg"> -->
+            <!-- <img class="crystal-image" src="assets/Images/Green_crystal.jpg"> -->
+
+        </div>
+
+
+
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/JavaScript/game.js"></script>
+
+</body>
+
+</html>
